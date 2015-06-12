@@ -1,0 +1,82 @@
+@import url('http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+@import url('http://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 150%;
+}
+
+body {
+	font-family: 'Gentium Book Basic', serif;
+	background: #f6f6ec;
+	font-size: 90%;
+}
+
+header {
+	padding: 20% 10%;
+	background: url('images/head.jpg') center center;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 3.5em;
+	color: #cacaa2;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #b4b466;
+	text-transform: uppercase;
+}
+
+section {
+	padding: 5% 10%;
+}
+
+section:first-of-type {
+	background: #e1e1d5;
+}
+
+article {
+	float: left;
+	width: 25%;
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	padding: 4% 10%;
+	width: 80%;
+	text-align: right;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+
+nav ul li:first-child {
+	border: 2px double inherit;
+	background: #dc1b1b;
+	padding: 10px;
+}
+
+footer {
+	padding: 5% 10%;
+}

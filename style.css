@@ -86,8 +86,8 @@ footer ul li {
 	display: inline;
 }
 
-@media screen and (max-width: 960px) {
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+	
 	nav {
 		position: static;
 		background: #e1d6d6;
@@ -100,4 +100,5 @@ footer ul li {
 	article {
 		width: 100%;
 	}
+
 }
